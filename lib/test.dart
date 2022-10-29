@@ -8,7 +8,12 @@ class Test extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('test'),
+      child: Column(
+        children: const[
+          Text('test'),
+          Text('the street '),
+        ],
+      ),
     );
   }
 }
