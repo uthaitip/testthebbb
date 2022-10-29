@@ -9,10 +9,11 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        children: const[
+        children: [
           Text('test'),
           Text('the street '),
-          Text('you must to be a company')
+          Text('you must to be a company'),
+          Container(child: Text('data'),)
         ],
       ),
     );
