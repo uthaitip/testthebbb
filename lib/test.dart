@@ -13,6 +13,7 @@ class Test extends StatelessWidget {
           Text('test'),
           Text('the street '),
           Text('you must to be a company'),
+          Text('you must to be a company'),
           Container(child: Text('data'),)
         ],
       ),
