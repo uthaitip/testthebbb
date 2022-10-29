@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
@@ -12,9 +13,7 @@ class Test extends StatelessWidget {
         children: [
           Text('test'),
           Text('the street '),
-          Text('you must to be a company'),
-          Text('you must to be a company'),
-          Container(child: Text('data'),)
+          Icon(Icons.text_snippet)
         ],
       ),
     );
