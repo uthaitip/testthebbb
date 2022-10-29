@@ -12,6 +12,7 @@ class Test extends StatelessWidget {
         children: const[
           Text('test'),
           Text('the street '),
+          Text('you must to be a company')
         ],
       ),
     );
